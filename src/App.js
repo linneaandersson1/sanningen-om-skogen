@@ -2,7 +2,7 @@
 import Herosec from './components/Herosec';
 import About from './components/About';
 import Contact from './components/Contact'
-import Recentioner from './components/Recentioner';
+// import Recentioner from './components/Recentioner';
 // import Footer from './components/Footer';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Herosec />
       <About />
       <Contact />
-      <Recentioner />
+      {/* <Recentioner /> */}
  
     </>
   );
