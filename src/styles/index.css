@@ -102,11 +102,10 @@ img {
 
 }
 .about-div-info {
-    margin-left: 10px;
+    margin-left: 30px;
    display: flex;
    flex-direction: column;
    justify-content: center;
-
    width: 43%;
 }
  .about-header {
@@ -116,7 +115,7 @@ img {
 }
 .about-parag {
     margin-top: -10px;
-    max-width: 700px;
+    max-width: 600px;
     align-self: center;
     font-weight: 300;
     font-size: 20px;
