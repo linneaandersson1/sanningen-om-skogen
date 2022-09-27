@@ -263,8 +263,68 @@ footer {
         height: 90vh;
     }
 
-   
+}
 
+@media (max-width: 761px) and (orientation:landscape) {
+    /* .about-div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .about-parag {
+        font-size: 16px;
+        max-width: 700px;
+        width: 80%;
+    }
+
+    .about-div-info {
+        margin-left: 10px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    
+       width: 80%;
+    } */
+
+    .about {
+        height: 140vw;
+        justify-content: center;
+    }
+
+    .about-parag {
+        max-width: 700px;
+        width: 80%;
+    }
+
+    .about-div-info {
+        width: 100%;
+    }
+
+    img {
+        margin-top: 7%;
+    }
+
+    .hero {
+        height: 70vw;
+    }
+
+    .hero-heading {
+        font-size: 60px;
+        line-height: 65px;
+    }
+
+}
+
+
+@media (max-width: 655px) and (orientation:landscape){
+    .hero {
+        height: 80vw;
+    }
+
+    .about {
+        height: 180vw;
+    }
 }
 
 @media (max-width: 607px) {
@@ -277,15 +337,45 @@ footer {
     }
 }
 
+@media (max-width: 607px) and (orientation:landscape){
+    .hero {
+        height: 80vw;
+    }
+
+    .hero-heading {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 49px;
+        margin-bottom: 10%;
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 550px) and (orientation:landscape){
+    .about {
+        height: 210vw;
+    }
+
+}
 
 @media (max-width: 509px) {
     .about {
         height: 190vh;
     }
 
-
     .hero {
         height: 80vh;
+    }
+
+}
+
+@media (max-width: 509px) and (orientation:landscape) {
+    .about {
+        height: 220vw;
+    }
+
+    .hero {
+        height: 80vw;
     }
 
 }
